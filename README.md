@@ -1,18 +1,10 @@
 # halloween.py
 
-# Fråga användaren om deras favorit-Halloween-karaktär
-karaktar = input("Vilken är din favorit-Halloween-karaktär? (vampyr, zombie, spöke, varulv): ").lower()
+Det här programmet låter dig välja en Halloween-karaktär och ger ett roligt svar baserat på ditt val. Programmet fortsätter tills du väljer att avsluta.
 
-# Använd en if-sats för att ge ett svar baserat på användarens val
-if karaktar == "vampyr":
-    print("Blod är livet!")
-elif karaktar == "zombie":
-    print("Hjärnor... hjärnor...")
-elif karaktar == "spöke":
-    print("Buuuu!")
-elif karaktar == "varulv":
-    print("rawrrr!")
-else:
-    print("Det låter som en spännande karaktär!")
+## Min egen "touch"
+Jag har lagt till en **varulv** som en extra karaktär i spelet. Du kan nu välja mellan **vampyr**, **zombie**, **spöke** och **varulv**. Jag har också lagt till ett avslutningsmeddelande när du skriver "avsluta" för att sluta spelet.
 
+## Vad programmet gör
+Du kan välja mellan fyra karaktärer: **vampyr**, **zombie**, **spöke** och **varulv** .Om du skriver något annat än dessa karaktärer, får du ett meddelande om att din karaktär är intressant men inte finns i spelet.Du kan när som helst skriva avsluta för att sluta spela.
 
